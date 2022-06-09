@@ -49,5 +49,5 @@ jobs:
 
       - name: SCP the build to the server
         run: |
-          srm -r siam:~/public_html/*
-          scp -r ./dist/* siam:~/public_html/
+          ssh siam rm -r "~/public_html/"
+          scp -r ./dist siam:~/public_html
