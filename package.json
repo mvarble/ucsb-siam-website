@@ -1,0 +1,17 @@
+{
+  "name": "ucsb-siam-website",
+  "scripts": {
+    "develop": "npx gatsby develop",
+    "build": "npx gatsby build",
+    "clean": "npx gatsby clean",
+    "serve": "npx gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^4.16.0",
+    "gatsby-source-filesystem": "^4.16.0",
+    "react": "^18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "workspaces": [
+  ]
+}
