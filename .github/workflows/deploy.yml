@@ -1,4 +1,5 @@
 name: CI
+
 on:
   push:
     branches: [ "main" ]
@@ -9,16 +10,21 @@ on:
 
 jobs:
   build:
-    environment: CI
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Build the site
         run: |
           echo "There is currently no build setup"
-      - name: Deploy the site
-        env:
-          SILLY_TEST_SECRET: ${{ secrets.SILLY_TEST_SECRET }}
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: deploy
+      url: 'https://web.math.ucsb.edu/~siam'
+    steps:
+      - name: Setup SSH Keys and known_hosts
         run: |
-          touch message.txt
-          echo $SILLY_TEST_SECRET
+          echo "${{ secrets.SILLY_TEST_SECRET }}"
