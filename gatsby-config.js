@@ -7,5 +7,6 @@ module.exports = {
         path: `${__dirname}/posts`,
       },
     },
+    '@mvarble/gatsby-plugin-mdx-v2custom',
   ]
 };

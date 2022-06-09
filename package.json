@@ -7,12 +7,14 @@
     "serve": "npx gatsby serve"
   },
   "dependencies": {
+    "@mvarble/gatsby-plugin-mdx-v2custom": "*",
     "gatsby": "^4.16.0",
     "gatsby-source-filesystem": "^4.16.0",
     "react": "^18.1.0",
     "react-dom": "18.1.0"
   },
   "workspaces": [
-    "packages/mdx-processor"
+    "packages/mdx-processor",
+    "packages/gatsby-plugin-mdx-v2custom"
   ]
 }

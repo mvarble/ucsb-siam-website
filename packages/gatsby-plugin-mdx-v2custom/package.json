@@ -1,0 +1,11 @@
+{
+  "name": "@mvarble/gatsby-plugin-mdx-v2custom",
+  "main": "index.js",
+  "author": "Matthew Varble",
+  "dependencies": {
+    "@mvarble/mdx-processor": "*",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "toml": "^3.0.0"
+  }
+}
