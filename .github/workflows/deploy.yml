@@ -38,4 +38,4 @@ jobs:
               IdentityFile ~/.ssh/siam
       - name: SCP the build to the server
         run: |
-          scp ./testfile siam:~/
+          ls
