@@ -16,10 +16,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Build the site
         run: |
-          echo "There is currently no build setup"
-          mkdir dist
-          touch dist/somefile
-          echo "hi" > dist/somefile
+          cp -r src dist
       - uses: actions/upload-artifact@master
         with:
           name: bundle
@@ -52,4 +49,5 @@ jobs:
 
       - name: SCP the build to the server
         run: |
-          scp -r ./dist siam:~/
+          srm -r siam:~/public_html/*
+          scp -r ./dist/* siam:~/public_html/
