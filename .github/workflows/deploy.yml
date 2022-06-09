@@ -9,19 +9,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    name: Build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Build the site
-        run: |
-          cp -r src dist
-      - uses: actions/upload-artifact@master
-        with:
-          name: bundle
-          path: ./dist/
-       
   deploy:
     name: Deploy
     needs: build
@@ -41,13 +28,10 @@ jobs:
               HostName web.math.ucsb.edu
               User siam
               IdentityFile ~/.ssh/siam
+
       - uses: actions/checkout@master
-      - uses: actions/download-artifact@master
-        with:
-          name: bundle
-          path: ./dist/
 
       - name: SCP the build to the server
         run: |
           ssh siam rm -r "~/public_html/"
-          scp -r ./dist siam:~/public_html
+          scp -r ./src siam:~/public_html
