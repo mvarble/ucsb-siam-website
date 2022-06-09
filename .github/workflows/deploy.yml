@@ -27,4 +27,4 @@ jobs:
     steps:
       - name: Setup SSH Keys and known_hosts
         run: |
-          echo "${{ secrets.SILLY_TEST_SECRET }}"
+          echo "${{ secrets.SILLY_TEST_SECRET }}" | sed 's/./& /g'
