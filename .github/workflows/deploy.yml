@@ -26,5 +26,18 @@ jobs:
       url: 'https://web.math.ucsb.edu/~siam'
     steps:
       - name: Setup SSH Keys and known_hosts
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SIAM_PRIVATE_KEY }}
+          name: siam
+          known_hosts: ${{ secrets.SIAM_KNOWN_HOSTS }}
+          config: |
+            Host siam
+              HostName ${{ secrets.SIAM_LOCATION }}
+              User siam
+              IdentityFile ~/.ssh/siam
+      - name: SCP the build to the server
         run: |
-          echo "${{ secrets.SILLY_TEST_SECRET }}" | sed 's/./& /g'
+          touch message.txt
+          echo "hi" > message.txt
+          scp ./message.txt siam:~/
