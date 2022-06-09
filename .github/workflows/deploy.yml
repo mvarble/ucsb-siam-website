@@ -33,7 +33,7 @@ jobs:
           known_hosts: ${{ secrets.SIAM_KNOWN_HOSTS }}
           config: |
             Host siam
-              HostName ${{ secrets.SIAM_LOCATION }}
+              HostName web.math.ucsb.edu
               User siam
               IdentityFile ~/.ssh/siam
       - name: SCP the build to the server
