@@ -17,6 +17,14 @@ jobs:
       - name: Build the site
         run: |
           echo "There is currently no build setup"
+          mkdir dist
+          touch dist/somefile
+          echo "hi" > dist/somefile
+      - uses: actions/upload-artifact@master
+        with:
+          name: bundle
+          path: ./dist/
+       
   deploy:
     name: Deploy
     needs: build
@@ -36,6 +44,12 @@ jobs:
               HostName web.math.ucsb.edu
               User siam
               IdentityFile ~/.ssh/siam
+      - uses: actions/checkout@master
+      - uses: actions/download-artifact@master
+        with:
+          name: bundle
+          path: ./dist/
+
       - name: SCP the build to the server
         run: |
-          ls
+          scp -r ./dist siam:~/
