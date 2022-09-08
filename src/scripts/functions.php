@@ -18,7 +18,7 @@
 		$html .= "<li><a href=\"index.php\">HOME</a></li>";
 		
 		// In the line below, change the link to whatever the current quarter link is
-		$html .= "<li><a href=\"2019_spring.php\">THIS QUARTER</a></li>";
+		$html .= "<li><a href=\"2022_fall.php\">THIS QUARTER</a></li>";
 
 		$html .= "<li><a href=\"events.php\">PAST EVENTS</a></li>";
 		$html .= "<li><a href=\"contact.php\">CONTACT US</a></li>";
