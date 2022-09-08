@@ -27,7 +27,7 @@ The SIAM student chapter of UCSB is strongly committed to diversity in the STEM 
 We encourage both graduate and undergraduate students from all departments to participate.</p>
 	<p>Graduate students at UCSB are eligible for <a href="http://www.siam.org/membership/individual/free.php">full SIAM membership at no cost</a>. 
 This membership must be renewed at the beginning of each calendar year. 
-The local chapter can also coordinate full memberships for undergraduates. Contact us for details.</p>
+The local chapter can also coordinate full memberships for undergraduates. Contact us for details. Test</p>
 </div>
 	
 <?php write_footer(); ?>
