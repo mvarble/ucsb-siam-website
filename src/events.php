@@ -42,7 +42,7 @@ We are always looking for new ideas, and if you think you have one, we would lov
 
 <h1>Academic Year 2016-2017</h1>
 
-<p>In Fall 2016 we hosted an <A href="2016_fall.php">informal graduate student seminar</a> in applied mathematics.</p>
+<p>In Fall 2016 we hosted an <A href="previous_years/2016_fall.php">informal graduate student seminar</a> in applied mathematics.</p>
 
 <p>Past Officers:</p>
 <ul>
@@ -65,11 +65,11 @@ We are always looking for new ideas, and if you think you have one, we would lov
 
 <h1>Academic Year 2014-2015</h1>
 
-<p>In Spring 2015 we joined with two other student groups to host the inaugural <A href="2015_spring.php">STEMposium</a>.</p>
+<p>In Spring 2015 we joined with two other student groups to host the inaugural <A href="previous_years/2015_spring.php">STEMposium</a>.</p>
 
-<p>In Winter 2015 we hosted an <A href="2015_winter.php">informal graduate student seminar</a> in applied mathematics.</p>
+<p>In Winter 2015 we hosted an <A href="previous_years/2015_winter.php">informal graduate student seminar</a> in applied mathematics.</p>
 
-<p>During the Fall of 2014 we hosted an interdisciplinary seminar on <a href="2014_fall.php">Algorithms in Computational Science</a>.</p>
+<p>During the Fall of 2014 we hosted an interdisciplinary seminar on <a href="previous_years/2014_fall.php">Algorithms in Computational Science</a>.</p>
 
 <p>Past Officers:</p>
 <ul>
@@ -82,7 +82,7 @@ We are always looking for new ideas, and if you think you have one, we would lov
 
 <h1>Academic Year 2013-2014</h1>
 
-<p>Events for 2013-2014 can be found <a href="2013_2014_events.php">here</a></p>
+<p>Events for 2013-2014 can be found <a href="previous_years/2013_2014_events.php">here</a></p>
 <p> Past Officers:</p>
 <ul>
 	<li>Cynthia Flores, President</li>
