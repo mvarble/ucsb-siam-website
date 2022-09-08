@@ -9,6 +9,14 @@ We encourage all graduate and undergraduate students to participate.
 If you would like to present at the seminar <a href="contact.php">contact us</a>. 
 We are always looking for new ideas, and if you think you have one, we would love to hear from you.</p>
 
+<h1>Academic Year 2022-2023</h1>
+
+<p>Current officers are:</p>
+<ul>
+	<li>Rafael Lainez Reyes, President</li>
+	<li>Zach Wagner, Vice President and Webmaster</li>
+	<li>Nico Gonzales, Treasurer</li>
+</ul>
 
 <h1>Academic Year 2018-2019</h1>
 
