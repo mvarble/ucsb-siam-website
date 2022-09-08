@@ -8,9 +8,9 @@
 	<p>Welcome to the Society for Industrial and Applied Mathematics (SIAM) student chapter of University of California, Santa Barbara (UCSB). 
 Our goal is to encourage and foster student engagement in the mathematical sciences and further the applications of mathematics in industry and science.</p>
 <br>
-	<h1>Call for Speakers: Spring 2019</h1>
+	<h1>Call for Speakers: Fall 2022</h1>
 	<p>The UCSB Student Chapter of SIAM will be running a weekly seminar in applied mathematics.
-		<a href="2019_spring.php">Click here</a> to see the current schedule of our talks.
+		<a href="2022_fall.php">Click here</a> to see the current schedule of our talks.
 		If you are interested in giving a talk during this seminar, please send an email to <a href="mailto:siam@math.ucsb.edu?Subject=Fall Seminar" target="_top">siam@math.ucsb.edu</a> with a potential title and abstract.</p>
 </div>
 
