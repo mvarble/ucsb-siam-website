@@ -23,72 +23,56 @@ This is a great outlet to polish your presentation skills in front of a general 
 	</tr>
 
     <?php  organize("September&nbsp;26th"); ?>
-
-    <?php speaker_data("October&nbsp;3rd",
-    "",
-    "",
-    "",
-    "" ); ?>
     
     <?php speaker_data("October&nbsp;10th",
-    "",
-    "",
-    "",
-    "" ); ?>        
+    "Rafael Lainez Reyes",
+    "Math",
+    "Concentration Compactness",
+    "TDB" ); ?>        
     
     <?php speaker_data("October&nbsp;17th",
-    "",
-    "",
-    "",
-    "" ); ?>
+    "Dorde Nikolic",
+    "Math",
+    "TBD",
+    "TBD" ); ?>
 
     <?php speaker_data("October&nbsp;24th",
-    "",
-    "",
-    "",
-    "" ); ?>
+    "Joel Pion",
+    "Math",
+    "An Introduction to Quantum Annealing",
+    "TBD" ); ?>
 
     <?php speaker_data("October&nbsp;31th",
-    "",
-    "",
-    "",
-    "" ); ?>
+    "Micah Pedrick",
+    "Math",
+    "Dissintigration of Measures",
+    "TBD" ); ?>
 
     <?php speaker_data("November&nbsp;7th",
-    "",
-    "",
-    "",
-    "" ); ?>
+    "Christian Hong",
+    "Sobolev Inequality",
+    "Math",
+    "TBD" ); ?>
 
     <?php speaker_data("November&nbsp;14th",
-    "",
-    "",
-    "",
-    "" ); ?>
-
-    <?php speaker_data("November&nbsp;21st",
-    "",
-    "",
-    "",
-    "" ); ?>
+    "Zach Wagner",
+    "Math",
+    "Dirac's Equation: Ground States and Nonrelativistic Limits",
+    "TBD" ); ?>
+		
+    <?php no_seminar("November&nbsp;21st"); ?>
     
     <?php speaker_data("November&nbsp;28th",
-    "",
-    "",
-    "",
-    "" ); ?>
+    "Jimmie Adriazola",
+    "Math",
+    "Solitons",
+    "TBD" ); ?>
     
     <?php speaker_data("December&nbsp;5th",
-    "",
-    "",
-    "",
-    "" ); ?>
-    
-    <?php speaker_data("December&nbsp;12th",
-    "",
-    "",
-    "",
-    "" ); ?>
+    "Charles Kulick",
+    "Math",
+    "Agent Based Modeling",
+    "TBD" ); ?>
     
     <?php #no_seminar("May&nbsp;28th"); ?>
 
