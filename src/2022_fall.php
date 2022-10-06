@@ -50,8 +50,8 @@ This is a great outlet to polish your presentation skills in front of a general 
 
     <?php speaker_data("November&nbsp;7th",
     "Christian Hong",
-    "Sobolev Inequality",
     "Math",
+    "Sobolev Inequality",
     "" ); ?>
 
     <?php speaker_data("November&nbsp;14th",
