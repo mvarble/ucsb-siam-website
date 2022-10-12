@@ -28,18 +28,18 @@ This is a great outlet to polish your presentation skills in front of a general 
     "Rafael Lainez Reyes",
     "Math",
     "Concentration Compactness",
-    "" ); ?>        
+    "Developed by P.L Lions in a series of papers, the Concentration Compactness Principle characterizes the convergence behavior of measures in L1. It has many important applications in problems arising in Calculus of Variations and Differential Equations. In this talk we will go over the main ideas of the principle." ); ?>        
     
     <?php speaker_data("October&nbsp;17th",
-    "Dorde Nikolic",
-    "Math",
-    "TBD",
-    "" ); ?>
-
-    <?php speaker_data("October&nbsp;24th",
     "Joel Pion",
     "Math",
     "An Introduction to Quantum Annealing",
+    "" ); ?>
+		
+    <?php speaker_data("October&nbsp;24th",
+    "Dorde Nikolic",
+    "Math",
+    "TBD",
     "" ); ?>
 
     <?php speaker_data("October&nbsp;31th",
