@@ -33,14 +33,14 @@ This is a great outlet to polish your presentation skills in front of a general 
     <?php speaker_data("October&nbsp;17th",
     "Joel Pion",
     "Math",
-    "An Introduction to Quantum Annealing",
-    "" ); ?>
+    "Quantum Unconstrained Binary Optimization",
+    "In this talk I will talk about problems we can solve on a quantum annealing device. We will treat the quantum annealer itself as a black box and will only consider the problem it solves, that of Quadratic Unconstrained Binary Optimization (QUBO). The main focus of the talk will be about how to take other problems we care about (mostly graph algorithm type problems) and convert them to QUBOs. The algorithm we will spend the most time on will be the Chinese Postman Problem (which is similar to the Traveling Salesman Problem)." ); ?>
 		
     <?php speaker_data("October&nbsp;24th",
-    "Dorde Nikolic",
+    "Rafael Lainez Reyes",
     "Math",
-    "TBD",
-    "" ); ?>
+    "Numerics and the Hartree-Fock Equations",
+    "In this talk we will go over some of the numerical complications that arise when trying to obtain approximations to the Hartree-Fock equations. While this set of equations will be the focus of the talk, some of the ideas have extensions to other nonlinear problems." ); ?>
 
     <?php speaker_data("October&nbsp;31th",
     "Micah Pedrick",
@@ -51,8 +51,8 @@ This is a great outlet to polish your presentation skills in front of a general 
     <?php speaker_data("November&nbsp;7th",
     "Christian Hong",
     "Math",
-    "Sobolev Inequality",
-    "" ); ?>
+    "The Gagliardo-Nirenberg Inequality",
+    "The Gagliardo-Nirenberg Inequality is a generalization of the usual Sobolev inequality. In this talk, we will focus on applications of the Gagliardo-Nirenberg Inequality to some nonlinear PDEs. In particular, we will discuss a regularity result for the Inviscid Burger's Equation and the Nonlinear Schrodinger Equation." ); ?>
 
     <?php speaker_data("November&nbsp;14th",
     "Zach Wagner",
