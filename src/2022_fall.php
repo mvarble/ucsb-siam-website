@@ -57,8 +57,8 @@ This is a great outlet to polish your presentation skills in front of a general 
     <?php speaker_data("November&nbsp;14th",
     "Zach Wagner",
     "Math",
-    "Dirac's Equation: Ground States and Nonrelativistic Limits",
-    "" ); ?>
+    "Relativistic Quantum Mechanics Through Applications of Dirac Theory",
+    "The Dirac Operator describes the motion of a relativistic particle. Its properties lead to interesting mathematical problems in relativistic quantum mechanics. In particular, one is led to study energy functionals analogous to the Hartree-Fock energy functional. We will discuss one such relativistic energy functional and methods which have been used to describe its critical points and derive their non-relativistic limit. We will then discuss extensions of these results to electrons in a self-generated magnetic field." ); ?>
 		
     <?php no_seminar("November&nbsp;21st"); ?>
     
