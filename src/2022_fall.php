@@ -65,14 +65,10 @@ This is a great outlet to polish your presentation skills in front of a general 
     <?php speaker_data("November&nbsp;28th",
     "Jimmie Adriazola",
     "Math",
-    "Solitons",
-    "" ); ?>
+    "Applications of the Riemann-Hilbert Problems",
+    "Riemann-Hilbert problems arise frequently in many different areas of applied analysis. During this talk, I will give a standard formulation of the Riemann-Hilbert problem and connect the framework with problems involving computation of special functions, the theory of orthogonal polynomials, and the inverse scattering transform for integrable equations." ); ?>
     
-    <?php speaker_data("December&nbsp;5th",
-    "Charles Kulick",
-    "Math",
-    "Agent Based Modeling",
-    "" ); ?>
+    <?php no_seminar("December&nbsp;5th"); ?>
     
     <?php #no_seminar("May&nbsp;28th"); ?>
 
